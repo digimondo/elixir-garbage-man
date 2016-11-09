@@ -90,7 +90,6 @@ defmodule GarbageMan.ProcessCollector do
 
       defoverridable([
         init_process_collector: 1,
-        handle_info: 2,
         timing_next_garbage_collect: 1,
         do_garbage_collect: 2,
         log: 2,
